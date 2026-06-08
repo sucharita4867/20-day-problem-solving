@@ -2,4 +2,13 @@
 let a = 5;
 let b = 10;
 [a, b] = [b, a];
-console.log(a, b); // 10 5
+// console.log(a, b);
+
+// problem 2
+
+let n = 52;
+if (n % 2 === 0) {
+  console.log("Even");
+} else {
+  console.log("Odd");
+}
