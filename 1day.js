@@ -8,7 +8,19 @@ let b = 10;
 
 let n = 52;
 if (n % 2 === 0) {
-  console.log("Even");
+  //   console.log("Even");
 } else {
-  console.log("Odd");
+  //   console.log("Odd");
 }
+
+// problem 3
+function largest(a, b, c) {
+  if (a > b && a > c) {
+    return a;
+  } else if (b > a && b > c) {
+    return b;
+  } else {
+    return c;
+  }
+}
+console.log(largest(1790, 20, 195));
