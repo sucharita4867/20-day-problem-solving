@@ -23,4 +23,9 @@ function largest(a, b, c) {
     return c;
   }
 }
-console.log(largest(1790, 20, 195));
+// console.log(largest(1790, 20, 195));
+//  problem 4
+function toFahrenheit(celsius) {
+  return (celsius * 9) / 5 + 32;
+}
+console.log(toFahrenheit(100));
