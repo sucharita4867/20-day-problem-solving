@@ -28,4 +28,15 @@ function largest(a, b, c) {
 function toFahrenheit(celsius) {
   return (celsius * 9) / 5 + 32;
 }
-console.log(toFahrenheit(100));
+// console.log(toFahrenheit(100));
+// problem 5
+function checkSign(n) {
+  if (n > 0) {
+    return "Positive";
+  } else if (n < 0) {
+    return "Negative";
+  } else {
+    return "Zero";
+  }
+}
+console.log(checkSign(5));
