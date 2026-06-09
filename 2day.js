@@ -36,4 +36,15 @@ function titleCase(str) {
     .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
     .join(" ");
 }
-console.log(titleCase("hello world  javascript"));
+// console.log(titleCase("hello world  javascript"));
+// problem 5
+function countChar(str, char) {
+  let count = 0;
+  for (let c of str) {
+    if (c === char) {
+      count++;
+    }
+  }
+  return count;
+}
+// console.log(countChar("hello world", "o"));
