@@ -18,4 +18,22 @@ function countVowels(str) {
   }
   return count;
 }
-console.log(countVowels("Hello, World"));
+// console.log(countVowels("Hello, World"));
+
+// problem 3
+function isPalindrome(str) {
+  const reversed = str.split("").reverse().join("");
+  return str === reversed;
+}
+
+// console.log(isPalindrome("racecart"));
+// problem 4
+
+function titleCase(str) {
+  return str
+    .toLowerCase()
+    .split(" ")
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(" ");
+}
+console.log(titleCase("hello world  javascript"));
