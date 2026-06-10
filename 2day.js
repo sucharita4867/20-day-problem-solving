@@ -48,3 +48,11 @@ function countChar(str, char) {
   return count;
 }
 // console.log(countChar("hello world", "o"));
+
+// Recruiter Reach: 3 mail and 3 company
+// Recruiter Reach link: https://docs.google.com/spreadsheets/d/1nSniNnveUXar8jGYn5nwROcLXYh_Fs8SYzWTZyw3QEs/edit?gid=657355284#gid=657355284
+// job apply : 0 
+// github link : https://github.com/sucharita4867/20-day-problem-solving
+// interview docs: 
+// job apply sheet : https://docs.google.com/spreadsheets/d/1nSniNnveUXar8jGYn5nwROcLXYh_Fs8SYzWTZyw3QEs/edit?gid=0#gid=0
+// job search : 
