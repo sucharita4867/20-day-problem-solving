@@ -29,4 +29,14 @@ function fizzBuzz(n) {
     }
   }
 }
-fizzBuzz(15);
+// fizzBuzz(15);
+
+// problem 4
+function invertObject(obj) {
+  const inverted = {};
+  for (let key in obj) {
+    inverted[obj[key]] = key;
+  }
+  return inverted;
+}
+console.log(invertObject({ a: 1, b: 2, c: 3 }));
