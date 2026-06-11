@@ -7,6 +7,10 @@ function countProperties(obj) {
   return count;
 }
 countProperties({ a: 1, b: 2, c: 3, d: 3 });
-console.log(countProperties({ a: 1, b: 2, c: 3, d: 3, e: 9 }));
+// console.log(countProperties({ a: 1, b: 2, c: 3, d: 3, e: 9 }));
 
 // problem 2
+function mergeObjects(obj1, obj2) {
+  return { ...obj1, ...obj2 };
+}
+console.log(mergeObjects({ a: 1 }, { b: 2 }));
