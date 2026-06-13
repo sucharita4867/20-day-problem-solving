@@ -40,6 +40,3 @@ function invertObject(obj) {
   return inverted;
 }
 // console.log(invertObject({ a: 1, b: 2, c: 3 }));
-// Job Apply Sheet: https://docs.google.com/spreadsheets/d/1nSniNnveUXar8jGYn5nwROcLXYh_Fs8SYzWTZyw3QEs/edit?gid=0#gid=0
-// Recruiter Reach: https://docs.google.com/spreadsheets/d/1nSniNnveUXar8jGYn5nwROcLXYh_Fs8SYzWTZyw3QEs/edit?gid=657355284#gid=657355284
-// job sheet: https://docs.google.com/document/d/11ELw_ZiR1Q7ON6Z1a6HF_vqIAoSwzHAPb-hfgraXXGs/edit?usp=sharing
