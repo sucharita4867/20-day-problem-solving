@@ -24,3 +24,29 @@ function fibonacci(n) {
 }
 
 // console.log(fibonacci(6));
+
+// problem 23
+class Counter {
+  constructor() {
+    this.count = 0;
+  }
+  increment() {
+    this.count++;
+  }
+  decrement() {
+    this.count--;
+  }
+  getCount() {
+    return this.count;
+  }
+}
+
+const c = new Counter();
+c.increment();
+c.increment();
+
+// console.log(c.getCount());
+
+c.decrement();
+
+// console.log(c.getCount());
