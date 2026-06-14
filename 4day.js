@@ -40,3 +40,15 @@ function invertObject(obj) {
   return inverted;
 }
 // console.log(invertObject({ a: 1, b: 2, c: 3 }));
+
+
+// Recruiter Reach: 3
+
+// Job Apply: 6
+
+// Github Repo Problem Solving: https://github.com/sucharita4867/20-day-problem-solving
+
+// Interview Question Doc:  https://docs.google.com/document/d/1DA-eEOuBauO4PulWt0pk4VdlfdtpD2OKGdxKuUlWskY/edit?tab=t.0
+
+// Job Apply Sheet: https://docs.google.com/spreadsheets/d/1nSniNnveUXar8jGYn5nwROcLXYh_Fs8SYzWTZyw3QEs/edit?gid=0#gid=0 
+// Recruiter Reach sheet : https://docs.google.com/spreadsheets/d/1nSniNnveUXar8jGYn5nwROcLXYh_Fs8SYzWTZyw3QEs/edit?gid=657355284#gid=657355284
