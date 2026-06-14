@@ -63,3 +63,5 @@ function curry(fn) {
 const add = curry((a, b) => a + b);
 
 // console.log(add(2)(3));
+
+// problem 25
