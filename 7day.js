@@ -42,3 +42,30 @@ function deepClone(obj) {
 const original = { a: 1, b: { c: 2 } };
 const cloned = deepClone(original);
 cloned.b.c = 3;
+
+// problem 34
+class EventEmitter {
+  constructor() {
+    this.events = {};
+  }
+
+  on(event, listener) {
+    if (!this.events[event]) {
+      this.events[event] = [];
+    }
+    this.events[event].push(listener);
+  }
+
+  emit(event, ...args) {
+    if (this.events[event]) {
+      this.events[event].forEach((listener) => listener(...args));
+    }
+  }
+
+  off(event, listener) {
+    if (this.events[event]) {
+      this.events[event] = this.events[event].filter((l) => l !== listener);
+    }
+  }
+}
+
