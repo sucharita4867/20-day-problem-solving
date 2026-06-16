@@ -69,3 +69,13 @@ class EventEmitter {
   }
 }
 
+// problem 35
+function myMap(arr, callback) {
+  const result = [];
+
+  for (let i = 0; i < arr.length; i++) {
+    result.push(callback(arr[i], i, arr));
+  }
+
+  return result;
+}
