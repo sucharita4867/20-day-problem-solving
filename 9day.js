@@ -29,4 +29,26 @@ function findMissing(arr, n) {
 
   return expectedSum - actualSum;
 }
-console.log(findMissing([1, 2, 4, 5], 5));
+// console.log(findMissing([1, 2, 4, 5], 5));
+
+// problem 44
+function isValidParentheses(str) {
+  const stack = [];
+  const pairs = {
+    ")": "(",
+    "]": "[",
+    "}": "{",
+  };
+
+  for (let char of str) {
+    if (char === "(" || char === "[" || char === "{") {
+      stack.push(char);
+    } else {
+      if (stack.pop() !== pairs[char]) {
+        return false;
+      }
+    }
+  }
+
+  return stack.length === 0;
+}
