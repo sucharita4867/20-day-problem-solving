@@ -21,3 +21,12 @@ function isAnagram(str1, str2) {
 }
 
 console.log(isAnagram("listen", "silent"));
+
+// problem 43
+function findMissing(arr, n) {
+  const expectedSum = (n * (n + 1)) / 2;
+  const actualSum = arr.reduce((sum, num) => sum + num, 0);
+
+  return expectedSum - actualSum;
+}
+console.log(findMissing([1, 2, 4, 5], 5));
