@@ -52,3 +52,6 @@ function isValidParentheses(str) {
 
   return stack.length === 0;
 }
+
+// problem 45
+
