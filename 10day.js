@@ -5,3 +5,9 @@ function wordCount(sentence) {
     return count;
   }, {});
 }
+// problem 47
+function longestWord(sentence) {
+  return sentence
+    .split(" ")
+    .reduce((longest, word) => (word.length > longest.length ? word : longest));
+}
