@@ -12,3 +12,10 @@ function longestWord(sentence) {
     .reduce((longest, word) => (word.length > longest.length ? word : longest));
 }
 console.log(longestWord("The quick brown fox jumps over the lazy dog"));
+
+// problem 48
+function rotateArray(arr, k) {
+  k = k % arr.length;
+
+  return arr.slice(-k).concat(arr.slice(0, -k));
+}
