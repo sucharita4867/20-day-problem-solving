@@ -32,7 +32,7 @@ function romanToInt(s) {
     M: 1000,
   };
 
-  let total = 0
+  let total = 0;
 
   for (let i = 0; i < s.length; i++) {
     if (values[s[i]] < values[s[i + 1]]) {
@@ -44,3 +44,5 @@ function romanToInt(s) {
 
   return total;
 }
+
+// problem 50
