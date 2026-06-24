@@ -47,10 +47,10 @@ function romanToInt(s) {
 
 // problem 50
 function pascalRow(n) {
-  let row = [1];
+  let row = [1]
 
   for (let i = 1; i <= n; i++) {
-    let newRow = [1];
+    let newRow = [1]
 
     for (let j = 1; j < row.length; j++) {
       newRow.push(row[j - 1] + row[j]);
