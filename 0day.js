@@ -14,3 +14,18 @@ function findMin(arr) {
 function reverseWords(str) {
   return str.split(" ").reverse().join(" ");
 }
+// problem 3
+function findDuplicates(arr) {
+  const seen = new Set();
+  const duplicates = new Set();
+
+  for (let num of arr) {
+    if (seen.has(num)) {
+      duplicates.add(num);
+    } else {
+      seen.add(num);
+    }
+  }
+
+  return [...duplicates];
+}
