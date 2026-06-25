@@ -10,3 +10,7 @@ function findMin(arr) {
 
   return min;
 }
+// problem 2
+function reverseWords(str) {
+  return str.split(" ").reverse().join(" ");
+}
