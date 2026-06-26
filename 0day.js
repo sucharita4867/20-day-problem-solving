@@ -56,3 +56,21 @@ function secondLargest(arr) {
 
   return second;
 }
+
+// problem 6
+function groupEvenOdd(arr) {
+  const result = {
+    even: [],
+    odd: [],
+  };
+
+  for (let num of arr) {
+    if (num % 2 === 0) {
+      result.even.push(num);
+    } else {
+      result.odd.push(num);
+    }
+  }
+
+  return result;
+}
