@@ -87,3 +87,15 @@ function countEven(arr) {
 
   return count;
 }
+// problem 8
+function removeFalsy(arr) {
+  const result = [];
+
+  for (let value of arr) {
+    if (value) {
+      result.push(value);
+    }
+  }
+
+  return result;
+}
