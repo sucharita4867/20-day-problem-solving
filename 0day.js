@@ -99,3 +99,8 @@ function removeFalsy(arr) {
 
   return result;
 }
+
+// problem 9
+function containsWord(sentence, word) {
+  return sentence.includes(word);
+}
