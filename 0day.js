@@ -74,3 +74,16 @@ function groupEvenOdd(arr) {
 
   return result;
 }
+// problem 7
+
+function countEven(arr) {
+  let count = 0;
+
+  for (let num of arr) {
+    if (num % 2 === 0) {
+      count++;
+    }
+  }
+
+  return count;
+}
