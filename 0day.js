@@ -104,3 +104,14 @@ function removeFalsy(arr) {
 function containsWord(sentence, word) {
   return sentence.includes(word);
 }
+
+// problem 10
+function findAverage(arr) {
+  let sum = 0;
+
+  for (let num of arr) {
+    sum += num;
+  }
+
+  return sum / arr.length;
+}
