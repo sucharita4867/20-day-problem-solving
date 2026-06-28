@@ -115,3 +115,10 @@ function findAverage(arr) {
 
   return sum / arr.length;
 }
+
+// problem 11
+function toUpperCaseString(str) {
+  return str.toUpperCase();
+}
+// problem 12
+
