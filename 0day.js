@@ -138,3 +138,15 @@ function longestLength(arr) {
 function countCharacters(str) {
   return str.length;
 }
+// problem 14
+function getPositiveNumbers(arr) {
+  const result = [];
+
+  for (let num of arr) {
+    if (num > 0) {
+      result.push(num);
+    }
+  }
+
+  return result;
+}
