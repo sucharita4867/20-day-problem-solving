@@ -133,3 +133,8 @@ function longestLength(arr) {
 
   return maxLength;
 }
+
+// problem 13
+function countCharacters(str) {
+  return str.length;
+}
