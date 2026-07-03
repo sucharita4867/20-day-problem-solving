@@ -150,3 +150,12 @@ function getPositiveNumbers(arr) {
 
   return result;
 }
+
+// problem 15
+function findFirstGreaterThanTen(arr) {
+  for (let num of arr) {
+    if (num > 10) {
+      return num;
+    }
+  }
+}
