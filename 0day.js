@@ -172,7 +172,7 @@ function countOdd(arr) {
 
   return count;
 }
-
+// problem 16
 // Remove Negative Numbers
 function removeNegative(arr) {
   const result = [];
@@ -184,4 +184,14 @@ function removeNegative(arr) {
   }
 
   return result;
+}
+// problem 17
+function findIndex(arr, target) {
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] === target) {
+      return i;
+    }
+  }
+
+  return -1;
 }
