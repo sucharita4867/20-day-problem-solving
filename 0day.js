@@ -159,3 +159,16 @@ function findFirstGreaterThanTen(arr) {
     }
   }
 }
+
+// problem 15
+function countOdd(arr) {
+  let count = 0;
+
+  for (let num of arr) {
+    if (num % 2 !== 0) {
+      count++;
+    }
+  }
+
+  return count;
+}
