@@ -172,3 +172,16 @@ function countOdd(arr) {
 
   return count;
 }
+
+// Remove Negative Numbers
+function removeNegative(arr) {
+  const result = [];
+
+  for (let num of arr) {
+    if (num >= 0) {
+      result.push(num);
+    }
+  }
+
+  return result;
+}
