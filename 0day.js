@@ -207,3 +207,16 @@ function sumEven(arr) {
 
   return sum;
 }
+
+// problem 19
+function shortestWord(arr) {
+  let shortest = arr[0];
+
+  for (let word of arr) {
+    if (word.length < shortest.length) {
+      shortest = word;
+    }
+  }
+
+  return shortest;
+}
