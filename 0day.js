@@ -220,3 +220,16 @@ function shortestWord(arr) {
 
   return shortest;
 }
+
+// problem 20
+function removeDuplicateNumbers(arr) {
+  const result = [];
+
+  for (let num of arr) {
+    if (!result.includes(num)) {
+      result.push(num);
+    }
+  }
+
+  return result;
+}
