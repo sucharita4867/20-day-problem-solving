@@ -195,3 +195,15 @@ function findIndex(arr, target) {
 
   return -1;
 }
+// problem 18
+function sumEven(arr) {
+  let sum = 0;
+
+  for (let num of arr) {
+    if (num % 2 === 0) {
+      sum += num;
+    }
+  }
+
+  return sum;
+}
