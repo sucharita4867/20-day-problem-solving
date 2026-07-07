@@ -238,3 +238,15 @@ function removeDuplicateNumbers(arr) {
 function containsValue(arr, value) {
   return arr.includes(value);
 }
+// problem 22
+function countUppercase(str) {
+  let count = 0;
+
+  for (let char of str) {
+    if (char >= "A" && char <= "Z") {
+      count++;
+    }
+  }
+
+  return count;
+}
