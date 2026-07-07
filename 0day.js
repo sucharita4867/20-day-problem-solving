@@ -233,3 +233,8 @@ function removeDuplicateNumbers(arr) {
 
   return result;
 }
+
+// problem 21
+function containsValue(arr, value) {
+  return arr.includes(value);
+}
