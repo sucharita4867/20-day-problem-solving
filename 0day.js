@@ -250,3 +250,14 @@ function countUppercase(str) {
 
   return count;
 }
+
+// problem 23
+function multiplyArray(arr) {
+  let result = 1;
+
+  for (let num of arr) {
+    result *= num;
+  }
+
+  return result;
+}
