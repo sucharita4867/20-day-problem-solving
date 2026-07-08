@@ -273,7 +273,13 @@ function countDigits(num) {
 
   return count;
 }
-// Problem 17: Find the Last Element of an Array
+// Problem 25: Find the Last Element of an Array
 function lastElement(arr) {
   return arr.pop();
+}
+
+// Problem 26: Reverse an Array
+
+function reverseArray(arr) {
+  return arr.reverse();
 }
