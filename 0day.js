@@ -262,7 +262,7 @@ function multiplyArray(arr) {
   return result;
 }
 
-Problem 24: Count Digits in a Number
+// Problem 24: Count Digits in a Number
 function countDigits(num) {
   let count = 0;
 
@@ -272,4 +272,8 @@ function countDigits(num) {
   }
 
   return count;
+}
+// Problem 17: Find the Last Element of an Array
+function lastElement(arr) {
+  return arr.pop();
 }
