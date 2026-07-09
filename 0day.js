@@ -309,3 +309,13 @@ function sumOdd(arr) {
 
   return sum;
 }
+// Problem 29: Check if a Number Exists in an Array
+function hasNumber(arr, num) {
+  for (let value of arr) {
+    if (value === num) {
+      return true;
+    }
+  }
+
+  return false;
+}
