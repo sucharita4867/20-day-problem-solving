@@ -283,3 +283,16 @@ function lastElement(arr) {
 function reverseArray(arr) {
   return arr.reverse();
 }
+
+// Problem 27: Find the Largest Number in an Array
+function findLargest(arr) {
+  let largest = arr[0];
+
+  for (let num of arr) {
+    if (num > largest) {
+      largest = num;
+    }
+  }
+
+  return largest;
+}
