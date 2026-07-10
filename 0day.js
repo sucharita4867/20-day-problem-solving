@@ -319,3 +319,4 @@ function hasNumber(arr, num) {
 
   return false;
 }
+// problem 30
