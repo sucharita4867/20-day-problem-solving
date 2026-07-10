@@ -320,3 +320,14 @@ function hasNumber(arr, num) {
   return false;
 }
 // Problem 30: Count the Number of Vowels
+function countVowels(str) {
+  let count = 0;
+
+  for (let char of str) {
+    if ("aeiou".includes(char)) {
+      count++;
+    }
+  }
+
+  return count;
+}
