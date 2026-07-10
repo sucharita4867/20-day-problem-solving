@@ -319,4 +319,4 @@ function hasNumber(arr, num) {
 
   return false;
 }
-// problem 30
+// Problem 30: Count the Number of Vowels
