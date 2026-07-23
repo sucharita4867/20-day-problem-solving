@@ -296,7 +296,7 @@ function findLargest(arr) {
 
   return largest;
 }
-8
+
 
 // Problem 29: Check if a Number Exists in an Array
 function hasNumber(arr, num) {
