@@ -298,7 +298,6 @@ function findLargest(arr) {
 }
 
 
-// Problem 28: Check if a Number Exists in an Array
 function hasNumber(arr, num) {
   for (let value of arr) {
     if (value === num) {
