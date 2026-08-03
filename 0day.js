@@ -332,3 +332,8 @@ function countNegative(arr) {
 
   return count;
 }
+
+// Problem 27: Find the First Character of a String
+function firstCharacter(str) {
+  return str[0];
+}
