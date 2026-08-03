@@ -297,19 +297,7 @@ function findLargest(arr) {
   return largest;
 }
 
-// Problem 28: Sum of Odd Numbers
-function sumOdd(arr) {
-  let sum = 0;
 
-  for (let num of arr) {
-    if (num % 2 !== 0) {
-      sum += num;
-    }
-  }
-
-  return sum;
-}
-// Problem 29: Check if a Number Exists in an Array
 function hasNumber(arr, num) {
   for (let value of arr) {
     if (value === num) {
