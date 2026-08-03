@@ -319,3 +319,16 @@ function hasNumber(arr, num) {
 
   return false;
 }
+
+// Problem 30: Remove Empty Strings from an Array
+function removeEmptyStrings(arr) {
+  let result = [];
+
+  for (let str of arr) {
+    if (str !== "") {
+      result.push(str);
+    }
+  }
+
+  return result;
+}
