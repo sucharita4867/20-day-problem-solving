@@ -297,7 +297,6 @@ function findLargest(arr) {
   return largest;
 }
 
-
 function hasNumber(arr, num) {
   for (let value of arr) {
     if (value === num) {
@@ -319,4 +318,17 @@ function removeEmptyStrings(arr) {
   }
 
   return result;
+}
+
+// Problem 31: Count Negative Numbers
+function countNegative(arr) {
+  let count = 0;
+
+  for (let num of arr) {
+    if (num < 0) {
+      count++;
+    }
+  }
+
+  return count;
 }
