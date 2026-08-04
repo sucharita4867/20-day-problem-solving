@@ -333,7 +333,19 @@ function countNegative(arr) {
   return count;
 }
 
-// Problem 27: Find the First Character of a String
+// Problem 32: Find the First Character of a String
 function firstCharacter(str) {
   return str[0];
+}
+// Problem 32: Count Spaces in a String
+function countSpaces(str) {
+  let count = 0;
+
+  for (let char of str) {
+    if (char === " ") {
+      count++;
+    }
+  }
+
+  return count;
 }
