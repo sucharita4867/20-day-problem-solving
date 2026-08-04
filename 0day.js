@@ -349,3 +349,4 @@ function countSpaces(str) {
 
   return count;
 }
+// Problem 33: Square Every Number in an Array
