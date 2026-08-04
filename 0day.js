@@ -350,3 +350,12 @@ function countSpaces(str) {
   return count;
 }
 // Problem 33: Square Every Number in an Array
+function squareArray(arr) {
+  let result = [];
+
+  for (let num of arr) {
+    result.push(num * num);
+  }
+
+  return result;
+}
