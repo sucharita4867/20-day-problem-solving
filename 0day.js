@@ -370,3 +370,16 @@ function toUpperArray(arr) {
 
   return result;
 }
+
+// Problem 35: Find the Sum of Positive Numbers
+function sumPositive(arr) {
+  let sum = 0;
+
+  for (let num of arr) {
+    if (num > 0) {
+      sum += num;
+    }
+  }
+
+  return sum;
+}
