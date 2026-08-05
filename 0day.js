@@ -359,3 +359,14 @@ function squareArray(arr) {
 
   return result;
 }
+
+// Problem 34: Convert an Array of Strings to Uppercase
+function toUpperArray(arr) {
+  let result = [];
+
+  for (let word of arr) {
+    result.push(word.toUpperCase());
+  }
+
+  return result;
+}
