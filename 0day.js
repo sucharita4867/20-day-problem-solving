@@ -403,3 +403,17 @@ function countTotalCharacters(arr) {
 
   return count;
 }
+// Problem 38: Replace Negative Numbers with Zero
+function replaceNegative(arr) {
+  let result = [];
+
+  for (let num of arr) {
+    if (num < 0) {
+      result.push(0);
+    } else {
+      result.push(num);
+    }
+  }
+
+  return result;
+}
