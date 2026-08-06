@@ -417,3 +417,15 @@ function replaceNegative(arr) {
 
   return result;
 }
+// Problem 39: Find the Longest Number (Most Digits)
+function longestNumber(arr) {
+  let longest = arr[0];
+
+  for (let num of arr) {
+    if (num.toString().length > longest.toString().length) {
+      longest = num;
+    }
+  }
+
+  return longest;
+}
