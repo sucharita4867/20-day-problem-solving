@@ -393,3 +393,13 @@ function reverseString(str) {
 
   return result;
 }
+// Problem 37: Count Characters in an Array of Strings
+function countTotalCharacters(arr) {
+  let count = 0;
+
+  for (let word of arr) {
+    count += word.length;
+  }
+
+  return count;
+}
