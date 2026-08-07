@@ -429,3 +429,13 @@ function longestNumber(arr) {
 
   return longest;
 }
+// Problem 40: Check if All Numbers are Positive
+function allPositive(arr) {
+  for (let num of arr) {
+    if (num < 0) {
+      return false;
+    }
+  }
+
+  return true;
+}
