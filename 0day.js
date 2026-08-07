@@ -440,3 +440,10 @@ function allPositive(arr) {
   return true;
 }
 // Problem 41: Find the First Even Number
+function firstEven(arr) {
+  for (let num of arr) {
+    if (num % 2 === 0) {
+      return num;
+    }
+  }
+}
