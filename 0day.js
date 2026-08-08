@@ -454,4 +454,5 @@ function toLowerArray(arr) {
   for (let word of arr) {
     result.push(word.toLowerCase());
   }
+  return result;
 }
