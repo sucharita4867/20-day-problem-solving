@@ -448,3 +448,10 @@ function firstEven(arr) {
   }
 }
 // Problem 42: Convert All Strings to Lowercase
+function toLowerArray(arr) {
+  let result = [];
+
+  for (let word of arr) {
+    result.push(word.toLowerCase());
+  }
+}
