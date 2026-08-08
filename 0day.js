@@ -447,3 +447,4 @@ function firstEven(arr) {
     }
   }
 }
+// Problem 42: Convert All Strings to Lowercase
