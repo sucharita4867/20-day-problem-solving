@@ -479,13 +479,12 @@ function firstNegative(arr) {
   }
 }
 
-// Problem 45: Add 5 to Every Number
+// Problem 45: Add 5 to Every Numbers
 function addFive(arr) {
   let result = [];
 
   for (let num of arr) {
     result.push(num + 5);
   }
-
   return result;
 }
