@@ -456,3 +456,16 @@ function toLowerArray(arr) {
   }
   return result;
 }
+
+// Problem 43: Count Numbers Greater Than 10
+function countGreaterThanTen(arr) {
+  let count = 0;
+
+  for (let num of arr) {
+    if (num > 10) {
+      count++;
+    }
+  }
+
+  return count;
+}
