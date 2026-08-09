@@ -469,3 +469,12 @@ function countGreaterThanTen(arr) {
 
   return count;
 }
+
+// Problem 44: Find the First Negative Number
+function firstNegative(arr) {
+  for (let num of arr) {
+    if (num < 0) {
+      return num;
+    }
+  }
+}
