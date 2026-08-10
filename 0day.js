@@ -488,3 +488,15 @@ function addFive(arr) {
   }
   return result;
 }
+// Problem 46: Count Numbers Less Than 10
+function countLessThanTen(arr) {
+  let count = 0;
+
+  for (let num of arr) {
+    if (num < 10) {
+      count++;
+    }
+  }
+
+  return count;
+}
