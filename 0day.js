@@ -500,3 +500,11 @@ function countLessThanTen(arr) {
 
   return count;
 }
+// Problem 47: Find the Last Even Number
+function lastEven(arr) {
+  for (let i = arr.length - 1; i >= 0; i--) {
+    if (arr[i] % 2 === 0) {
+      return arr[i];
+    }
+  }
+}
