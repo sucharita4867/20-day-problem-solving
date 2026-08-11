@@ -520,3 +520,14 @@ function addArrays(arr1, arr2) {
   return result;
 }
 // Problem 49: Count Zeroes in an Array
+function countZeroes(arr) {
+  let count = 0;
+
+  for (let num of arr) {
+    if (num === 0) {
+      count++;
+    }
+  }
+
+  return count;
+}
