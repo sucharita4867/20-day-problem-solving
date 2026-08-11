@@ -531,3 +531,11 @@ function countZeroes(arr) {
 
   return count;
 }
+// Problem 50: Find the First Odd Number
+function firstOdd(arr) {
+  for (let num of arr) {
+    if (num % 2 !== 0) {
+      return num;
+    }
+  }
+}
