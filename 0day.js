@@ -509,7 +509,7 @@ function lastEven(arr) {
   }
 }
 
-// Problem 48: Add Two Arrays
+// Problem 48: Add Two Array
 function addArrays(arr1, arr2) {
   let result = [];
 
@@ -519,7 +519,7 @@ function addArrays(arr1, arr2) {
 
   return result;
 }
-// Problem 49: Count Zeroes in an Array
+// Problem 49: Count Zeroes in an Arrays
 function countZeroes(arr) {
   let count = 0;
 
