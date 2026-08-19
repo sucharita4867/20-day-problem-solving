@@ -7,3 +7,9 @@ console.log('Positive no :', number)
 }else{
       console.log('Zero no:', number)
 }
+
+// Problem 2: Check Voting Eligibility [Easy]
+const canVote = 34
+if(canVote >= 18){
+      console.log('Eligible')
+}
